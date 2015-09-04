@@ -8,7 +8,7 @@ This repository for Rubicon interview programming exam question#1 - Write a prog
 4. Target to finish this by 30-60 minutes.
 
 # Usage
-Below is the usage and a simple running example of this programe:
+Below is the usage and a simple running example of this program:
 ```
 #./bin/floating_number_processing.py -h
 SYNOPSIS
