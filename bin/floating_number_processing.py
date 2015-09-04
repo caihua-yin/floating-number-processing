@@ -17,7 +17,7 @@ def usage():
     """
     usage_str = """
 SYNOPSIS
-    Proccess a text file which contains lines of floating number, print out the number and sum of them.
+    Proccess a text file which contains lines of floating number, print out the count and sum of them.
 
 OPTIONS
     Use the following options to specify a function:
@@ -53,13 +53,13 @@ def process_file(file_path):
 
     count = 0
     summation = 0.0
-    with open(file_path) as fp:
+    with open(file_path) as file_object:
         # Read file chunk by chunk in ~4K size,
         # process each chunk, and aggregate the result of them
-        for chunk in read_file_in_chunk(fp):
-            c, s = process_chunk(chunk)
-            count += c
-            summation += s
+        for chunk in read_file_in_chunk(file_object):
+            chunk_count, chunk_sum = process_chunk(chunk)
+            count += chunk_count
+            summation += chunk_sum
     print "Count: %d" % count
     print "Sum: %f" % summation
 
@@ -131,7 +131,7 @@ def main():
     if cmd == "help":
         usage()
     elif cmd == "process":
-       process_file(file_path)
+        process_file(file_path)
     else:
         usage()
         sys.exit(1)

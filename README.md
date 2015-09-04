@@ -12,7 +12,7 @@ Below is the usage and a simple running example of this programe:
 ```
 #./bin/floating_number_processing.py -h
 SYNOPSIS
-    Proccess a text file which contains lines of floating number, print out the number and sum of them.
+    Proccess a text file which contains lines of floating number, print out the count and sum of them.
 
 OPTIONS
     Use the following options to specify a function:
