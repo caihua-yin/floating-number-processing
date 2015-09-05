@@ -65,7 +65,7 @@ def process_file(file_path):
 
 def read_file_in_chunk(file_object, hint_size=1024*4):
     """
-    Read file in chunks with specified hint size, default as 4K
+    A generator to read file in chunks with specified hint size (default as 4K), and yield each chunk for processing.
     On hint size reached, the chunk will end with empty space between two float numbers or '\n' between lines
 
     This is to handle some extreme large file or long line scenario.
