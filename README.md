@@ -10,7 +10,7 @@ This repository for Rubicon interview programming exam question#1 - Write a prog
 # Usage
 Below is the usage and a simple running example of this program:
 ```
-#./bin/floating_number_processing.py -h
+./floating_number_processing.py -h
 SYNOPSIS
     Proccess a text file which contains lines of floating number, print out the count and sum of them.
 
@@ -25,7 +25,7 @@ EXAMPLES
     # Process file ../tests/normal.txt and print out the result
     ./floating_number_processing.py -f ../tests/normal.txt
 
-#./bin/floating_number_processing.py -f ./tests/normal.txt
+./floating_number_processing.py -f ./tests/normal.txt
 Count: 12
 Sum: 655.291500
 ```
