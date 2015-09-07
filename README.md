@@ -45,3 +45,5 @@ Sum: 655.291500
     - A text file which contains some invalid floating numbers e.g. 'a4.8' (see ./tests/invalid_float.txt)
     - An arbitrary bianry file
     - The specified file does not exist
+
+Actually all of these cases have been tested and passed.
