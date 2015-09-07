@@ -7,6 +7,8 @@ This repository for Rubicon interview programming exam question#1 - Write a prog
 3. List all the ways you plan to test this program.
 4. Target to finish this by 30-60 minutes.
 
+All of the runnable scripts has been tested at Linux machine with Python 2.6.8, which is my devkit.
+
 # Usage
 Below is the usage and a simple running example of this program:
 ```
