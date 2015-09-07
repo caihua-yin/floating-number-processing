@@ -12,6 +12,7 @@ All of the runnable scripts has been tested at Linux machine with Python 2.6.8, 
 # Usage
 Below is the usage and a simple running example of this program:
 ```
+cd floating-number-processing/bin/
 ./floating_number_processing.py -h
 SYNOPSIS
     Proccess a text file which contains lines of floating number, print out the count and sum of them.
